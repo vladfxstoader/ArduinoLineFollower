@@ -35,4 +35,4 @@ For bonus points, I added some LEDs that can be used as headlights, and I tried 
 # [Code](https://github.com/vladfxstoader/ArduinoLineFollower/blob/main/line_follower/line_follower.ino)
 
 # Setup
-![Setup](https://github.com/vladfxstoader/ArduinoLineFollowere/blob/main/setup.jpg?raw=true)
+![Setup](https://github.com/vladfxstoader/ArduinoLineFollower/blob/main/setup.jpg?raw=true)
