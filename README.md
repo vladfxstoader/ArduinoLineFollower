@@ -11,7 +11,7 @@ This repository is dedicated to the line follower project for the Introduction t
 * QTR-8A reflectance sensor, along with screws
 * Ball caster
 * Chassis
-* Breadboard - medium (400pts)
+* Medium breadboard
 * L293D motor driver
 * DC motors
 * Wires
@@ -26,10 +26,13 @@ The automatic calibration of the sensors was implemented by moving the robot lef
 
 The speed of the motors is controlled by the PID control, and the values which worked best for the constants KP, KI and KD were 8, 0.0001 and, respectively, 2. Also, the motors can also move in reverse if necessary, thus being able to take more sharp turns.
 
-Introduction
+## Bonus 
+
+For bonus points, I added some LEDs that can be used as headlights, and I tried to save the calibration to EEPROM so that it is not performed whenever the robot is powered up, but I did not manage to use it correctly.
 
 # [Demo](https://www.youtube.com/watch?v=UGS8K95a6ec)
 
 # [Code](https://github.com/vladfxstoader/ArduinoLineFollower/blob/main/line_follower/line_follower.ino)
 
 # Setup
+![Setup](https://github.com/vladfxstoader/ArduinoLineFollowere/blob/main/setup.jpg?raw=true)
