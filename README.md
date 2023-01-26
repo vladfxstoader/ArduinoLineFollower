@@ -1,6 +1,6 @@
-# Line follower robot
+# Line follower robot - Runtime Terror team
 
-This repository is dedicated to the line follower project for the Introduction to Robotics course, taken in the 3rd year (2022-2023) at the Faculty of Mathematics and Computer Science, University of Bucharest.
+This repository is dedicated to the line follower project for the Introduction to Robotics course, taken in the 3rd year (2022-2023) at the Faculty of Mathematics and Computer Science, University of Bucharest. The project was made in teams of 2 people; I took part in the Runtime Terror team, along with [@ralucsandu](https://github.com/ralucsandu).
 
 # Components
 
@@ -24,7 +24,7 @@ The task of the project was to develop a line follower robot. For maximum grade,
 
 The automatic calibration of the sensors was implemented by moving the robot left and right along the axis according to the values read by the sensor. If the data from the sensors indicated that the robot was in the right side, it would move left, and if the robot was in the left side, it would move right.
 
-The speed of the motors is controlled by the PID control, and the values which worked best for the constants KP, KI and KD were 8, 0.0001 and, respectively, 2. Also, the motors can also move in reverse if necessary, thus being able to take more sharp turns.
+The speed of the motors is controlled by the PID control, and the values which worked best for the constants KP, KI and KD were found empirically and their values were 8, 0.0001 and, respectively, 2. Also, the motors can also move in reverse if necessary, thus being able to take more sharp turns.
 
 ## Bonus 
 
